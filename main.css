@@ -16,9 +16,27 @@ li {
 
 .light-theme {
     color: white;
-    background-color: #69bb69;
+    background-color: #a4fda4;
 }
 
+.btn {
+    color: var(--btnFontColor);
+    background-color: (--btnBg);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--bntFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
 
 :root {
     --green: #55dd55;
